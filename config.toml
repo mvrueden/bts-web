@@ -1,0 +1,24 @@
+baseURL = "https://borntosquad.com/"
+languageCode = "de-DE"
+title = "Born To Squad"
+theme ="stip-hugo"
+
+[Author]
+    name = "Born To Squad"
+    bio = "Professional coffee drinker"
+
+[params.colors]
+    background = "#000000"
+    circle = "orange"
+    foreground = "black"
+    hover = "blue"
+
+[[params.links]]
+    icon = "discord"
+    title = "Discord"
+    url = "http://discord.borntosquad"
+
+[[params.links]]
+    icon = "teamspeak"
+    title = "Teamspeak 3 Server"
+    url = "http://borntosquad.com"
