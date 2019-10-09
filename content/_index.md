@@ -24,8 +24,8 @@ about:
     Wir sind ein <a href="http://www.joinsquad.com/" target="_blank">Squad</a> Clan. Ingame tragen wir den Tag [B.T.S].</p>'
 
 download:
-    rename: "Contact"
-    header: "Contact" 
+    rename: "Kontakt"
+    header: "Kontakt" 
     text: '<div class="px-4 py-4">
                 <div class="links">
                     <a rel="me" href="https://discord.borntosquad.com" title="Discord">
