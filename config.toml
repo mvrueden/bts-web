@@ -5,13 +5,13 @@ theme ="stip-hugo"
 
 [Author]
     name = "Born To Squad"
-    bio = "Professional coffee drinker"
+    bio = "Willkommen auf der Born To Squad Webseite"
 
 [params.colors]
     background = "#000000"
-    circle = "orange"
-    foreground = "black"
-    hover = "blue"
+    circle = "#ffa500"
+    foreground = "#333333"
+    hover = "#dddddd"
 
 [[params.links]]
     icon = "discord"
@@ -22,3 +22,16 @@ theme ="stip-hugo"
     icon = "teamspeak"
     title = "Teamspeak 3 Server"
     url = "http://borntosquad.com"
+
+[[params.links]]
+    iconset = "fas"
+    icon = "envelope"
+    title = "E-mail"
+    url = "mailto:borntosquad@gmail.com"
+
+[[params.links]]
+    iconset = "fas"
+    icon = "info-circle"
+    title = "Impressum"
+    url = "impressum.html"
+
