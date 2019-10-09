@@ -21,7 +21,7 @@ theme ="stip-hugo"
 [[params.links]]
     icon = "teamspeak"
     title = "Teamspeak 3 Server"
-    url = "http://borntosquad.com"
+    url = "http://ts.borntosquad.com"
 
 [[params.links]]
     iconset = "fas"
