@@ -21,7 +21,14 @@ about:
     header: "About Born To Squad"
     text: '<p>
     <img src="img/portrait.png" class="img-fluid" alt="Born To Squad">
-    Wir sind ein <a href="http://www.joinsquad.com/" target="_blank">Squad</a> Clan. Ingame tragen wir den Tag [B.T.S].</p>'
+    
+    Hallo, wir sind ein <a href="http://www.joinsquad.com/" target="_blank">Squad</a> Clan der sich das Ziel 
+    gesetzt hat nicht auf Quantität sondern auf Qualität zu setzen. 
+    Uns ist wichtig eine gute Atmosphäre im Clan beizubehalten und gleichzeitig eine gewisse Qualität beim Spielen nach außen zu tragen.
+    Das bedeutet wir entwickeln uns stetig weiter und freuen uns immer auf neue Leute die uns beitreten wollen. <br /> <br/>
+    
+    Wenn du dich für uns interessierst dann melde dich unter über <a href="#Kontakt">Kontakt</a>.
+    </p>'
 
 download:
     rename: "Kontakt"
