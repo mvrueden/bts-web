@@ -38,7 +38,7 @@ download:
                     <a rel="me" href="https://discord.borntosquad.com" title="Discord">
                         <span class="fab fa-3x fa-discord"></span>
                     </a>
-                    <a rel="me" class="ml-4" href="https://ts.borntosquad.com" title="Teamspeak">
+                    <a rel="me" class="ml-4" href="ts3server://ts.borntosquad.com" title="Teamspeak">
                         <span class="fab fa-3x fa-teamspeak"></span>
                     </a>
                     <a rel="me" class="ml-4" href="mailto:borntosquad@gmail.com" title="Email">
