@@ -1,37 +1,13 @@
 baseURL = "https://borntosquad.com/"
 languageCode = "de-DE"
 title = "Born To Squad"
-theme ="stip-hugo"
+theme = "hugograyscale"
+
+[params]
+    # Provide some metadata for search and indexing services
+    description = "Website of the Join Squad Game Clan Born To Squad"
+    author = "Born To Squad"
 
 [Author]
     name = "Born To Squad"
     bio = "Willkommen auf der Born To Squad Webseite"
-
-[params.colors]
-    background = "#000000"
-    circle = "#ffa500"
-    foreground = "#333333"
-    hover = "#dddddd"
-
-[[params.links]]
-    icon = "discord"
-    title = "Discord"
-    url = "http://discord.borntosquad"
-
-[[params.links]]
-    icon = "teamspeak"
-    title = "Teamspeak 3 Server"
-    url = "http://ts.borntosquad.com"
-
-[[params.links]]
-    iconset = "fas"
-    icon = "envelope"
-    title = "E-mail"
-    url = "mailto:borntosquad@gmail.com"
-
-[[params.links]]
-    iconset = "fas"
-    icon = "info-circle"
-    title = "Impressum"
-    url = "impressum.html"
-

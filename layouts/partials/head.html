@@ -1,43 +1,34 @@
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    {{- if .IsHome }}
-        <meta name="description" content="{{ .Site.Params.Description }}">
-    {{- else if .Description }}
-        <meta name="description" content="{{ .Description }}">
-    {{- end }}
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="{{ $.Param "description" }}">
+<meta name="author" content="{{ $.Param "author" }}">
 
-    <title>
-        {{- if .IsHome }}
-            {{ .Site.Title }}
-        {{- else }}
-            {{ .Title }} &middot; {{ .Site.Title }}
-        {{- end }}
-    </title>
+<title>{{- $.Param "title" -}}</title>
 
-    <!-- CSS -->
-    {{- $inServerMode	:= .Site.IsServer }}
-    {{- $cssTarget		:= "css/style.css" }}
-    {{- $cssOptions		:= cond ($inServerMode) (dict "targetPath" $cssTarget "enableSourceMap" true) (dict "targetPath" $cssTarget "outputStyle" "compressed") }}		
-    {{- $style			:= resources.Get "scss/stip.scss" | resources.ExecuteAsTemplate "style.hallo.scss" . | toCSS $cssOptions }}
-    <link rel="stylesheet" href="{{ $style.RelPermalink }}">
+<!-- Favicon -->
+<link rel="apple-touch-icon" sizes="180x180" href="{{ "apple-touch-icon.png" | relURL }}">
+<link rel="icon" type="image/png" sizes="32x32" href="{{ "favicon-32x32.png" | relURL }}">
+<link rel="icon" type="image/png" sizes="16x16" href="{{ "favicon-16x16.png" | relURL }}">
+<link rel="icon" href="/favicon.ico">
 
-    <style>
-        body {
-            background: url('{{ "images/background.jpg" | relURL }}');
-        }    
-    </style>
+<!-- SEO Prefs -->
+<meta name="robots" content="index,follow">
+<meta name="referrer" content="origin-when-cross-origin">
 
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+<!-- Site Generator -->
+<meta name="generator" content="Hugo {{ .Hugo.Version }}">
 
-    <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="{{ "apple-touch-icon.png" | relURL }}">
-    <link rel="icon" type="image/png" sizes="32x32" href="{{ "favicon-32x32.png" | relURL }}">
-    <link rel="icon" type="image/png" sizes="16x16" href="{{ "favicon-16x16.png" | relURL }}">
-    <link rel="manifest" href="{{ "site.webmanifest" | relURL }}">
+<!-- Bootstrap core CSS -->
+<link href="{{ "vendor/bootstrap/css/bootstrap.min.css" | relURL }}" rel="stylesheet">
 
-    <!-- RSS -->
-    <link href="{{ with .OutputFormats.Get "RSS" }}{{ .RelPermalink }}{{ end }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
-</head>
+<!-- Custom fonts for this template -->
+<link href="{{ "vendor/font-awesome/css/font-awesome.min.css" | relURL }}" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+<link href='https://fonts.googleapis.com/css?family=Cabin:700' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+<!-- Custom styles for this template -->
+<link href="{{ "css/grayscale.min.css" | relURL }}" rel="stylesheet">
+<link href="{{ "css/custom.css" | relURL }}" rel="stylesheet">
