@@ -35,7 +35,7 @@ download:
     header: "Kontakt" 
     text: '<div class="px-4 py-4">
                 <div class="links">
-                    <a rel="me" href="https://discord.borntosquad.com" title="Discord">
+                    <a rel="me" href="http://discord.borntosquad.com" title="Discord">
                         <span class="fab fa-3x fa-discord"></span>
                     </a>
                     <a rel="me" class="ml-4" href="ts3server://ts.borntosquad.com" title="Teamspeak">
