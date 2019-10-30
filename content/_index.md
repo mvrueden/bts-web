@@ -27,7 +27,7 @@ about:
     Uns ist wichtig eine gute Atmosphäre im Clan beizubehalten und gleichzeitig eine gewisse Qualität beim Spielen nach außen zu tragen.
     Das bedeutet wir entwickeln uns stetig weiter und freuen uns immer auf neue Leute die uns beitreten wollen. <br /> <br/>
     
-    Wenn du dich für uns interessierst dann melde dich unter über <a href="#Kontakt">Kontakt</a>.
+    Wenn du dich für uns interessierst dann melde dich über <a href="#Kontakt">Kontakt</a> bei uns.
     </p>'
 
 download:
